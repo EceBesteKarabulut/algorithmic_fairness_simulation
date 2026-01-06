@@ -13,12 +13,16 @@ This changes which agent becomes dominant but does not eliminate inequality.
 
 ### 3. Opportunity-Aware Assignment
 Prioritizes agents who have completed fewer tasks.
+
 This approach significantly reduces task concentration and ensures a more equitable distribution of opportunities.
+
 ---
 
 ## Key Findings
 -Greedy strategies amplify small initial advantages.
+
 -Random exploration alone is insufficient to ensure fairness.
+
 -Opportunity-aware rules lead to more balanced outcomes.
 ---
 
@@ -38,4 +42,5 @@ Increasing the exploration rate changed which agent became dominant,but task ine
 
 ### Opportunity-Aware Assignment
 Tasks were distributed much more evenly across agents, with no single agent dominating the workload.
+
 
