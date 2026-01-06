@@ -1,10 +1,6 @@
 ## Algorithmic Fairness Simulation
-
-## Motivation
-I built this simulation to explore how seemingly efficient algorithms can unintentionally reinforce inequality over time. By comparing greedy, exploration-based, and opportunity-aware strategies, I wanted to understand how algorithm design choices affect fairness, not just performance.
-
 This project explores how different task allocation algorithms affect fairness and inequality in a team based system.
-This simulation models a group of agents who improve their skills as they complete tasks. Over time, the way tasks are assignedcan significantly influence both performance and fairness.
+This simulation models a group of agents who improve their skills as they complete tasks. Over time, the way tasks are assigned can significantly influence both performance and fairness.
 ---
 
 ## Algorithms Implemented
@@ -36,11 +32,10 @@ The simulation was run with 6 agents and 100 tasks.
 
 ### Greedy Assignment
 One agent received almost all tasks, while others received few or none, demonstrating extreme task concentration.
+
 ### Balanced Assignment (Exploration-Based)
 Increasing the exploration rate changed which agent became dominant,but task inequality persisted across different runs.
-### Opportunity-Aware Assignment
 
+### Opportunity-Aware Assignment
 Tasks were distributed much more evenly across agents, with no single agent dominating the workload.
 
-## What I Learned
-This project showed me that maximizing short-term efficiency can amplify small initial advantages, while opportunity-aware rules lead to more balanced outcome. It strengthened my interest in fairness-aware and responsible algorithm design.
